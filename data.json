@@ -3,8 +3,8 @@
         "id" : 0,
         "name" : "SOLID",
         "content" : {
-            "id" : 0
-            "description" : "SOLID is a mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable. The principles are a subset of many principles promoted by American software engineer and instructor Robert C. Martin, first introduced in his 2000 paper Design Principles and Design Patterns",
+            "id" : 0,
+            "description" : "is an acronym for the first five object-oriented design (OOD) principles by Robert C. Martin (also known as Uncle Bob",
             "image" : "solid",
             "details" : [
                 {
@@ -39,7 +39,7 @@
         "id" : 1,
         "name" : "MVVM",
         "content" : {
-            "id" : 0
+            "id" : 0,
             "description" : "MVVM is a software design pattern that is structured to separate program logic and user interface controls. MVVM is also known as model-view-binder and was created by Microsoft architects Ken Cooper and John Gossman.",
             "image" : "mvvm",
             "details" : [
