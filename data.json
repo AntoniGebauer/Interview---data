@@ -1,0 +1,65 @@
+[
+    {
+        "id" : 0,
+        "name" : "SOLID",
+        "content" : {
+            "id" : 0
+            "description" : "SOLID is a mnemonic acronym for five design principles intended to make object-oriented designs more understandable, flexible, and maintainable. The principles are a subset of many principles promoted by American software engineer and instructor Robert C. Martin, first introduced in his 2000 paper Design Principles and Design Patterns",
+            "image" : "solid",
+            "details" : [
+                {
+                    "id" : 0,
+                    "name" : "single-responsibility principle",
+                    "description" : "There should never be more than one reason for a class to change. In other words, every class should have only one responsibility."
+                },
+                {
+                    "id" : 1,
+                    "name" : "open-closed principle",
+                    "description" : "Software entities ... should be open for extension, but closed for modification."
+                },
+                {
+                    "id" : 2,
+                    "name" : "Liskov substitution principle",
+                    "description" : "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."
+                },
+                {
+                    "id" : 3,
+                    "name" : "interface segregation principle",
+                    "description" : "Many client-specific interfaces are better than one general-purpose interface."
+                },
+                {
+                    "id" : 4,
+                    "name" : "dependency inversion principle",
+                    "description" : "Depend upon abstractions, [not] concretions."
+                }
+            ]
+        }
+    },
+    {
+        "id" : 1,
+        "name" : "MVVM",
+        "content" : {
+            "id" : 0
+            "description" : "MVVM is a software design pattern that is structured to separate program logic and user interface controls. MVVM is also known as model-view-binder and was created by Microsoft architects Ken Cooper and John Gossman.",
+            "image" : "mvvm",
+            "details" : [
+                {
+                    "id" : 0,
+                    "name" : "Model",
+                    "description" : "Houses the logic for the program, which is retrieved by the ViewModel upon its own receipt of input from the user through View."
+                },
+                {
+                    "id" : 1,
+                    "name" : "View",
+                    "description" : "Collection of visible elements, which also receives user input. This includes user interfaces (UI), animations and text. The content of View is not interacted with directly to change what is presented"
+                },
+                {
+                    "id" : 2,
+                    "name" : "ViewModel",
+                    "description" : "Located between the View and Model layers. This is where the controls for interacting with View are housed, while binding is used to connect the UI elements in View to the controls in ViewModel."
+                }
+            ]
+        }
+            
+    }
+]
